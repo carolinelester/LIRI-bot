@@ -144,6 +144,8 @@ function concertSearch(){
               
     };
 
+// pulls from random.txt file for Rhiannon by Fleetwood Mac
+
 function doSay(){
 
         fs.readFile("random.txt", "utf8", function(error,data){
